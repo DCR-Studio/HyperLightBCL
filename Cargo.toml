@@ -1,6 +1,9 @@
 [package]
 name = "OpenBCLCore"
-version = "0.1.0"
+version = "1.0.0-dev"
+repository = "https://github.com/DCR-Studio/OpenBCLCore"
+authors = ["TNTyep520 <3345562481@qq.com>"]
 edition = "2024"
+rust-version = "1.88.0"
 
 [dependencies]
