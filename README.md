@@ -1,51 +1,68 @@
-## **OpenBCLCore**
+# **OpenBCLCore**
 #####
-**```A Open Source BCL-Launcher Core For Rust```**
+**```A Open Source BCL-Launcher Core for Rust```**
 #####
 [简体中文](README_ZH_CN.md)
+[繁體中文](README_ZH_TW.md)
 #####
-**BCL-Launcher Core branch currently under development**
+**A branch of BCL-Launcher Core written in Rust for command-line use**
 #####
-## **Warning:**
-- **OpenBCLCore is written in Rust and has nothing to do with the Core written in Python by BCL-Launcher!**
-- **OpenBCLCore is licensed under the GPL-3 license. Bugs are inevitable in the early stages of OpenBCLCore development. If you find any bugs in our source code or during your experience, please submit them to our Issues. Thank you!**
-- **The BCL-Launcher Core branch is in the early development stage and is not recommended for long-term use.**
-#####
-## **Features to be completed:**
 
-* [ ] Launch the game version
-* [ ] Game version download and installation function
-* [ ] Download and install CurseForge and Modrinth mods, resources, save files, shaders, and modpacks
-* [ ] Account login system (Microsoft OAuth login, offline login and third-party authentication server login)
-* [ ] Many, many features to be added
-#####
-## **Completed features:**
+> [!WARNING]
+> * **This project is a separate development branch from the Python-written [BCL-Launcher](https://github.com/DCR-Studio/BCL-Launcher) Core!**
+> * **OpenBCLCore is still in early development. Bugs are inevitable in this early stage, so daily use is not recommended. If you find a bug, please report it to our Issues. Thank you!**
+> * **The project is licensed under the GPL-3.0 license, and features are being continuously added**
 
-**None**
 #####
-## **How to use?**
 
-- **Build and download via Github Actions**
-- **Configuring the Rust environment for compilation**
+## **📆  Development Progress**
+**The following is information and progress on planned feature additions**
+
 #####
-## **Rust build steps:**
 
-**The first method：**
+### **✓ Completed Features:**
+
+**No completion progress yet**
+
+### **🛠️ Planned / Completed Features:**
+
+* [ ] **Launch the game**
+* [ ] **Game version download and installation**
+* [ ] **Download and install CurseForge and Modrinth mods, resources, save files, shaders, and modpacks**
+* [ ] **Account login system (Microsoft OAuth login, offline login, and third-party authentication server login)**
+* [ ] **More features to be added**
+
+#####
+
+## **📚 How to use?**
+
+- **Build and Download via Github Actions**
+- **Configure the Rust Development Environment for Compilation (for Developers)**
+#####
+### > **Building Steps:**
+
+**If you don't want to download OpenBCLCore via Github Actions and want to experience new features immediately, please configure your Rust development environment and run the following command to compile:**
+
 ```bash
 git clone git@github.com:DCR-Studio/OpenBCLCore.git
 cd OpenBCLCore
 cargo build
-# The compiled storage path is target/debug
 ```
 
-**Second method：**
+**After compilation, the files will be stored in the target/debug folder**
+
+**If you want to test OpenBCLCore before compiling, and you're a developer proficient in Rust, you can use the following command:**
+
 ```bash
 git clone git@github.com:DCR-Studio/OpenBCLCore.git
 cd OpenBCLCore
 cargo run
 ```
+
 #####
-## **License**
-**This project code follows **[GPL-3.0 license](LICENSE)** Open Source Agreement**
+## **📖 License**
+
+**OpenBCLCore is licensed under **[GPL-3.0  license](LICENSE)** Open source license, this agreement is contagious**
+
 #####
-**The final interpretation belongs to DCR-Studio**
+**©2024-2025 DCR Studio. All rights reserved**
