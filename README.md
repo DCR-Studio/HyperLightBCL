@@ -22,14 +22,14 @@
 
 ### **✓ Completed Features:**
 
-**No completion progress yet**
+* [x] **Offline Login**
 
 ### **🛠️ Planned / Completed Features:**
 
 * [ ] **Launch the game**
 * [ ] **Game version download and installation**
 * [ ] **Download and install CurseForge and Modrinth mods, resources, save files, shaders, and modpacks**
-* [ ] **Account login system (Microsoft OAuth login, offline login, and third-party authentication server login)**
+* [ ] **Account Management System (Microsoft OAuth login and third-party authentication server login)**
 * [ ] **More features to be added**
 
 #####
