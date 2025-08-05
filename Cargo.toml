@@ -12,5 +12,12 @@ rust-version = "1.88.0"
 name = "OpenBCLCore"
 path = "src/auth/offline_uuid.rs"
 
+[profile.release]
+lto = true
+codegen-units = 1
+panic = "abort"
+opt-level = "z"
+strip = true
+
 [dependencies]
-md5 = "0.7.0"
+md5 = "0.3.8"
