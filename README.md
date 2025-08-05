@@ -46,7 +46,7 @@
 ```bash
 git clone git@github.com:DCR-Studio/OpenBCLCore.git
 cd OpenBCLCore
-cargo build
+cargo build --release
 ```
 
 **After compilation, the files will be stored in the target/debug folder**

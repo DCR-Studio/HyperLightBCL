@@ -46,7 +46,7 @@
 ```bash
 git clone git@github.com:DCR-Studio/OpenBCLCore.git
 cd OpenBCLCore
-cargo build
+cargo build --release
 ```
 
 **在編譯完成後，檔案存放在 target/debug 資料夾中**
