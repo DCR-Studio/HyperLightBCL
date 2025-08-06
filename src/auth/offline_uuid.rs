@@ -1,37 +1,25 @@
 use md5;
-use regex::Regex;
-use rustyline::Editor;
-use rustyline::history::DefaultHistory;
+use std::io::{self, Write};
 
 fn main() {
-    let mut rl = Editor::<(), DefaultHistory>::new().unwrap();
-    let prompt = "请输入玩家名称: ";
+    print!("请输入玩家名称（仅限字母、数字、下划线）：");
+    io::stdout().flush().unwrap();
 
-    let name = rl.readline(prompt).unwrap_or_default().trim().to_string();
+    let mut raw_name = String::new();
+    io::stdin().read_line(&mut raw_name).unwrap();
+    let name = raw_name.trim();
 
-    if name.is_empty() {
-        println!("\x1b[31mError: 你输入的玩家名称不能为空\x1b[0m");
+    if name.is_empty() || !name.chars().all(|c| c.is_ascii_alphanumeric() || c == '_') {
+        eprintln!("\x1b[31m错误：玩家名称只能包含字母、数字或下划线。\x1b[0m");
         return;
     }
 
-    let re = Regex::new(r"^[A-Za-z0-9_]+$").unwrap();
-    if !re.is_match(&name) {
-        println!("\x1b[31mError: 玩家名称只允许使用字母、数字及下划线。\x1b[0m");
-        return;
-    }
-
-    println!("\nPlayer Name: {}", name);
-
-    let mut bytes = md5::compute(format!("OfflinePlayer:{}", name)).0;
-    bytes[6] = (bytes[6] & 0x0F) | 0x30;
-    bytes[8] = (bytes[8] & 0x3F) | 0x80;
-
+    let mut b = md5::compute(format!("OfflinePlayer:{}", name)).0;
+    b[6] = (b[6] & 0x0F) | 0x30;
+    b[8] = (b[8] & 0x3F) | 0x80;
     println!(
-        "离线 UUID: {:02x}{:02x}{:02x}{:02x}-{:02x}{:02x}-{:02x}{:02x}-{:02x}{:02x}-{:02x}{:02x}{:02x}{:02x}{:02x}{:02x}",
-        bytes[0], bytes[1], bytes[2], bytes[3],
-        bytes[4], bytes[5],
-        bytes[6], bytes[7],
-        bytes[8], bytes[9],
-        bytes[10], bytes[11], bytes[12], bytes[13], bytes[14], bytes[15]
+        "玩家 {} 的离线 UUID: {:02x}{:02x}{:02x}{:02x}-{:02x}{:02x}-{:02x}{:02x}-{:02x}{:02x}-{:02x}{:02x}{:02x}{:02x}{:02x}{:02x}",
+        name,
+        b[0], b[1], b[2], b[3], b[4], b[5], b[6], b[7], b[8], b[9], b[10], b[11], b[12], b[13], b[14], b[15]
     );
 }
