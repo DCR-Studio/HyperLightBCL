@@ -5,7 +5,7 @@ version = "1.0.0-dev"
 license = "GPL-3.0"
 repository = "https://github.com/DCR-Studio/OpenBCLCore"
 authors = ["TNTyep520 <3345562481@qq.com>"]
-edition = "2024"
+edition = "2021"
 rust-version = "1.88.0"
 
 [[bin]]
@@ -21,3 +21,5 @@ strip = true
 
 [dependencies]
 md5 = "0.3.8"
+regex = "1"
+rustyline = "12"
