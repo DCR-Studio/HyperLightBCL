@@ -23,13 +23,14 @@
 ### **✓ 已完成功能：**
 
 * [x] **离线登录**
+* [x] **Microsoft OAuth 登录**
 
 ### **🛠️ 计划开发 / 完成功能：**
 
 * [ ] **启动游戏版本**
 * [ ] **游戏版本下载和安装功能**
 * [ ] **下载并安装 CurseForge 和 Modrinth 模组、资源、存档、光影和整合包**
-* [ ] **账户管理系统（Microsoft OAuth 登录及第三方身份验证服务器登录）**
+* [ ] **第三方身份验证服务器登录**
 * [ ] **更多功能待添加**
 
 #####
@@ -49,7 +50,7 @@ cd OpenBCLCore
 cargo build --release
 ```
 
-**在编译完成后，文件存放在 target/debug 文件夹中**
+**在编译完成后，文件存放在 target/release 文件夹中**
 
 **若您在编译之前想要测试 OpenBCLCore，且您是开发人员，精通 Rust，可通过我提供的命令来进行测试：**
 
@@ -65,4 +66,4 @@ cargo run
 **OpenBCLCore 遵循 **[GPL-3.0 license](LICENSE)** 开源许可证，这一协议具有传染性**
 
 #####
-**©2024-2025 DCR Studio. 保留所有权利**
+**Copyright ©2024-2025 DCR Studio and contributors. All rights reserved**

@@ -23,13 +23,14 @@
 ### **✓ Completed Features:**
 
 * [x] **Offline Login**
+* [x] **Microsoft OAuth Login**
 
 ### **🛠️ Planned / Completed Features:**
 
 * [ ] **Launch the game**
 * [ ] **Game version download and installation**
 * [ ] **Download and install CurseForge and Modrinth mods, resources, save files, shaders, and modpacks**
-* [ ] **Account Management System (Microsoft OAuth login and third-party authentication server login)**
+* [ ] **Third-party authentication server login**
 * [ ] **More features to be added**
 
 #####
@@ -49,7 +50,7 @@ cd OpenBCLCore
 cargo build --release
 ```
 
-**After compilation, the files will be stored in the target/debug folder**
+**After compilation, the files will be stored in the target/release folder**
 
 **If you want to test OpenBCLCore before compiling, and you're a developer proficient in Rust, you can use the following command:**
 
@@ -65,4 +66,4 @@ cargo run
 **OpenBCLCore is licensed under **[GPL-3.0  license](LICENSE)** Open source license, this agreement is contagious**
 
 #####
-**©2024-2025 DCR Studio. All rights reserved**
+**Copyright ©2024-2025 DCR Studio and contributors. All rights reserved**

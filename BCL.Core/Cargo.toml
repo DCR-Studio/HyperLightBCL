@@ -8,13 +8,14 @@ authors = ["TNTyep520 <sbtntyep520@gmail.com>"]
 edition = "2021"
 rust-version = "1.88.0"
 
-[[bin]]
-name = "OpenBCLCore"
-path = "src/auth/offline/offline_uuid.rs"
-
 [profile.release]
 strip = "debuginfo"
 lto = "thin"
 
 [dependencies]
-md5 = "0.8"
+md5 = "0.3"
+mc_auth = "0.1"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "time"] }
+reqwest = { version = "0.11", features = ["json", "rustls-tls"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
