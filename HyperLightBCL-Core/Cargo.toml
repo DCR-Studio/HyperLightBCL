@@ -1,14 +1,18 @@
 [package]
-name = "OpenBCLCore"
-description = "A Open Source BCL-Launcher Core For Rust"
+name = "HyperLightBCL-Core"
+description = "A HyperLightBCL-Core For Rust"
 version = "25.8.3-alpha"
 license = "GPL-3.0"
-repository = "https://github.com/DCR-Studio/OpenBCLCore"
+repository = "https://github.com/DCR-Studio/HyperLightBCL"
 authors = ["TNTyep520 <sbtntyep520@gmail.com>"]
 edition = "2021"
 rust-version = "1.88.0"
 
 [profile.release]
+strip = "debuginfo"
+lto = "thin"
+
+[profile.debug]
 strip = "debuginfo"
 lto = "thin"
 

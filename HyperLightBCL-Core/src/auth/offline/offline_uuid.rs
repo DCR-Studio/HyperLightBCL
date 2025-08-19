@@ -1,4 +1,4 @@
-// Open Source BCL-Launcher Core For Rust
+// HyperLightBCL-Core For Rust
 //
 // By TNTyep520 <sbtntyep520@gmail.com>
 //
