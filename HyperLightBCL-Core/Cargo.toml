@@ -1,26 +1,28 @@
 [package]
 name = "HyperLightBCL-Core"
-description = "A HyperLightBCL-Core For Rust"
+description = "A HyperLightBCL-Core for Minecraft, written in Rust"
 version = "25.8.3-alpha"
-license = "GPL-3.0"
+license = "GNU General Public License 3.0"
 repository = "https://github.com/DCR-Studio/HyperLightBCL"
+homepage = "https://launcher.dcrstudio.top"
 authors = ["TNTyep520 <sbtntyep520@gmail.com>"]
 edition = "2021"
 rust-version = "1.88.0"
 
 [profile.release]
-strip = "debuginfo"
-lto = "thin"
+strip = true
+lto = true
+codegen-units = 1
 
 [profile.debug]
-strip = "debuginfo"
-lto = "thin"
+strip = true
+lto = true
+codegen-units = 1
 
 [dependencies]
-md5 = "0.3"
+md5 = "0.7.0"
 mc_auth = "0.1"
 tokio = { version = "1", features = ["rt-multi-thread", "macros", "time"] }
 reqwest = { version = "0.11", features = ["json", "rustls-tls"] }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-webbrowser = "1.0.5"
