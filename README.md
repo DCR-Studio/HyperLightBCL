@@ -18,10 +18,10 @@
 ![GitHub Release](https://img.shields.io/github/v/release/DCR-Studio/HyperLightBCL?label=Release&logo=github&style=for-the-badge)
 [![Build](https://img.shields.io/badge/GitHub%20Actions-Build-181717?logo=github&logoColor=white&style=for-the-badge)](https://github.com/DCR-Studio/HyperLightBCL/actions)
 
- ~~**```Awww is this the bittersweet meow meow cookie starter awa```**~~
+ ~~**```Aww is this the bittersweet meow meow cookie starter awa```**~~
 
 ### A lightweight Minecraft Java Launcher written with Rust backend + Tauri application framework. 
-#### ~~(Although but this is a project in the **early stages of development, the code is not yet complete**~~)
+#### ~~(But this is a project in the **early stages of development, the code is not yet complete**~~)
 
 </div>
 
