@@ -1,14 +1,13 @@
 <div align="center">
 
 <a href="https://github.com/DCR-Studio/HyperLightBCL">
-    <img src="./docs/images/logo.svg" alt="Logo" width="100" height="100">
+
+<img src="https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/images/logo.svg" alt="Logo" width="150" height="150">
 </a>
 
 # HyperLightBCL Branch
 
----
-
-  <b><a href="./README.md">English</a> | 简体中文 | <a href="./docs/README_zh_hant.md">繁體中文</a>
+<b><a href="https://github.com/DCR-Studio/HyperLightBCL/blob/main/README.md">English</a> | 简体中文 | <a href="https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/README_zh_hant.md">繁體中文</a>
 </p>
 
 [贡献指南[↗]](https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CONTRIBUTING.md)
