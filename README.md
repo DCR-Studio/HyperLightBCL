@@ -1,82 +1,171 @@
-<img src="./assets/logo.svg" alt="HyperLightBCL Logo" width="150>" align="right">
+<div align="center">
 
-# **HyperLightBCL**
-#####
-**```A Faster and More Convenient HyperLightBCL For Rust```**
-#####
-[简体中文](README_ZH_CN.md)
-[繁體中文](README_ZH_TW.md)
-#####
-**A BCL-Launcher Core branch, a faster and more stable graphical GUI launcher built with Rust**
-#####
+<a href="https://github.com/DCR-Studio/HyperLightBCL">
+    <img src="./docs/images/logo.svg" alt="Logo" width="100" height="100">
+</a>
 
-> [!WARNING]
-> * **This Project is a separate development branch from the Python-written [BCL-Launcher](https://github.com/DCR-Studio/BCL-Launcher) Core!**
-> * **HyperLightBCL is still in early development. Bugs are inevitable in this early stage, so daily use is not recommended. If you find a bug, please report it to our Issues. Thank you!**
-> * **The Project is licensed under the GNU General Public License 3.0 Open Source License, and features are being continuously added**
+# HyperLightBCL Branch
 
-#####
+---
 
-## **📆  Development Progress**
-**The following is information and progress on planned feature additions**
+  <b>English | <a href="./docs/README_zh_hans.md">简体中文</a> | <a href="./docs/README_zh_hant.md">繁體中文</a>
+</p>
 
-#####
+[Contribution Guidelines[↗]](https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CONTRIBUTING.md)
+[Technical Specification[↗]](https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CONTRIBUTING.md#Angular-commit-convention)
 
-### **✓ Completed Features:**
+[![Stars](https://img.shields.io/github/stars/DCR-Studio/HyperLightBCL?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiIGZpbGw9IiNlYWM1NGYiLz48L3N2Zz4=&logoSize=auto&label=Stars&labelColor=444444&color=eac54f)](https://github.com/DCR-Studio/HyperLightBCL)
+[![LICENSE](https://img.shields.io/github/license/DCR-Studio/HyperLightBCL?style=for-the-badge)](https://github.com/DCR-Studio/HyperLightBCL/blob/main/LICENSE)
+![GitHub Release](https://img.shields.io/github/v/release/DCR-Studio/HyperLightBCL?label=Release&logo=github&style=for-the-badge)
+[![Build](https://img.shields.io/badge/GitHub%20Actions-Build-181717?logo=github&logoColor=white&style=for-the-badge)](https://github.com/DCR-Studio/HyperLightBCL/actions)
 
-* [x] **Offline Login and Microsoft OAuth Login**
+ ~~**```Awww is this the bittersweet meow meow cookie starter awa```**~~
 
-### **🛠️ Planned / Completed Features:**
+### A lightweight Minecraft Java Launcher written with Rust backend + Tauri application framework. 
+#### ~~(Although but this is a project in the **early stages of development, the code is not yet complete**~~)
 
-* [ ] **Launch the game**
-* [ ] **Game version download and installation**
-* [ ] **Download and install CurseForge and Modrinth mods, resources, save files, shaders, and modpacks**
-* [ ] **Traditional Yggdrasil API and OAuth 2.0 Yggdrasil API Login**
-* [ ] **More features to be added......**
+</div>
 
-#####
+---
 
-## **? How to use?**
+> [!WARNING] 
+> * This project and the Core of [**BCL-Launcher[↗]**](https://github.com/DCR-Studio/BCL-Launcher) are developed in **Rust+Python**,but they are still **two different development branches!**
+> * HyperLightBCL is currently in the **early development stage**, some bugs will inevitably appear, so it is not recommended for daily use, if you find bugs in the process of using it, please **submit them to our Issues**, thank you!
+> * The project is licensed under the **GNU General Public License v3.0** and is still under development .......
 
-- **Build and Download via Github Actions**
-- **Configure the Rust Development Environment for Compilation (for Developers)**
-#####
-### > **📦 Building Steps:**
+---
 
-**If you don't want to download HyperLightBCL via Github Actions and want to experience new features immediately, please configure your Rust development environment and run the following command to compile:**
+## ❓ What is HyperLightBCL Branching?
+**HyperLightBCL** (Original Name **OpenBCLCore**) attributable [**TNTyep520[↗]**](https://github.com/TNTyep520) through [**BCL-Launcher[↗]**](https://github.com/DCR-Studio/BCL-Launcher) Separate **separate Rust development branch, written entirely in Rust**,But it is still part of the [**DCR-Studio[↗]**](https://github.com/DCR-Studio) **Project Team.**
+
+HyperLightBCL still adheres to the **Lightweight · Customizable · Open · Gamer-centric design philosophy**, and follows the **GNU General Public License v3.0 Open Source License**, we welcome any community developers to contribute source code for us!
+
+**Development Group(China):307955001**
+
+---
+
+## Technology stack used for the project:
+[![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white&style=for-the-badge)](https://www.rust-lang.org/)
+[![Tauri](https://img.shields.io/badge/Tauri-v2-FFC131?style=for-the-badge&logo=tauri&logoColor=white&labelColor=24C8DB)](https://tauri.app/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+
+---
+
+## 🚀 Features & Benefits：
+
+### 🔒 Surety
+
+- Rust in-memory security + asymmetric encryption and system-level key memory to handle sensitive data for the initiator
+
+### 💻 Cross-Platform 
+
+- Cross-platform support ( Windows / Linux / macOS )
+
+### 🧩 Flexible Expansion  
+
+- A rich ecosystem of third-party libraries allows developers to quickly expand functionality.
+- Developers can independently modify or add new components according to their needs without drastically altering the entire project.
+
+---
+
+## 📆 Development Progress：
+Following**Join the development plan and progress of functional modules:**
+
+###  ✅ Completed Functions:
+
+* [x] Offline Login
+
+### 🛠️ Planned Development / Completed Functions:
+
+* [ ] Launch game version
+* [ ] Game version download and installation functions
+* [ ] Download and install CurseForge and Modrinth modules, resources, archives, shadows and integration packs.
+* [ ] Microsoft OAuth 2.0 with legacy Yggdrasil API and OAuth 2.0 Yggdrasil API login
+* [ ] Content Manager: Archives, Resource Packs, Shadow Packs, Integration Packs, Modules
+* [ ] Java Management: JVM Customization Parameters, Java Auto-detection and Downloading
+* [ ] Download Source Provision: BMCLAPI, Official Download Source
+* [ ] More features to be added ......
+
+---
+
+## 📦 Installation and use：
+
+### Download:
+
+> [!IMPORTANT]  
+> ❌ The project is currently in **Early Development** and is holding off on releasing a Release, but you can still get a taste of it by downloading a preview built automatically from the latest code via the **GitHub Actions link** (which may **require logging into a Github account**):
+>
+> - [**Github Release Latest[↗]**](https://github.com/DCR-Studio/HyperLightBCL/releases/latest)
+>
+> - [**Github Actions[↗]**](https://github.com/DCR-Studio/HyperLightBCL/actions)
+
+Usually just visit [**Launcher Official Website[↗]**](https://launcher.dcrstudio.top/download) to download it!
+
+---
+
+### Compiling and Debugging (for developers):
+
+> This applies only to users who **participate in the development**:
+
+### Environmental requirements:
+
+> * A computer with more than 4GB of RAM **(x86_64 architecture only, unlimited operating systems)** 
+>
+> * Computer with **Rust, Node.js development environment, Tauri application framework support libraries**
+
+### Building Steps:
+
+First clone this project and install **Frontend Dependencies**:
 
 ```bash
 git clone git@github.com:DCR-Studio/HyperLightBCL.git
 cd HyperLightBCL
-cargo build --release
+npm install
 ```
 
-**After compilation, the files will be stored in the target/release folder**
-
-**If you want to test HyperLightBCL before compiling, and you're a developer proficient in Rust, you can use the following command:**
+Operates in **debug mode**:
 
 ```bash
-git clone git@github.com:DCR-Studio/HyperLightBCL.git
-cd HyperLightBCL
-cargo run
+npm run tauri dev
 ```
 
-#####
-## **📖 License**
+We warmly welcome **every community developer's contribution to this project! **
 
-**We sincerely hope that community developers can contribute some code to us, so we choose to open source the source code**
+### Committing repository source code (see also [Contribution Guidelines[↗]](https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CONTRIBUTING.md)):
+**Log in to your personal Github account, fork the repository, use git to clone the address of the repository you're forking to, commit the source code via git commit, and then request a merge Pull requests.**
 
-**HyperLightBCL is licensed under **[GPL-3.0 license](LICENSE)** Open Source License, this agreement is contagious**
+---
 
-#####
+## 🌟 Acknowledgement of personnel:
+**Thanks to the following people who contributed to the project:**
 
-### Additional Terms (Pursuant to Section 7 of the GPLv3 License)
+[![Contributors](https://contrib.rocks/image?repo=DCR-Studio/HyperLightBCL)](https://github.com/DCR-Studio/HyperLightBCL/graphs/contributors)
 
-1. When distributing a modified version of this program, you must reasonably modify the program's name or version number to distinguish it from the original version. (According to [GPLv3, 7(c)](https://github.com/DCR-Studio/HyperLightBCL/blob/main/LICENSE#L372-L374))
-    - Modified versions **must not include the original program name "Bad Craft Launcher" "HyperLightBCL" or its abbreviation "BCL" in their name, nor use any name that is similar enough to cause confusion with the official name**.
-    - All modified versions **must clearly indicate that they are “Unofficial Modified Versions” on the program’s startup screen or main interface**.
+---
 
-2. You must not remove the copyright notices displayed by the program. (According to [GPLv3, 7(b)](https://github.com/DCR-Studio/HyperLightBCL/blob/main/LICENSE#L368-L370))
+## Contributions and Feedback:
 
-#####
+If you find any problems or have suggestions for improvement, please feel free to submit your feedback via the Issues page in the repository. We appreciate your contributions and will continue to improve the code and functionality!
+
+---
+
+## 📜 License
+
+We sincerely hope that the community developers can contribute part of the code for us, therefore, we choose **completely open source source code**.
+
+**HyperLightBCL** comply with **[GNU General Public License v3.0[↗]](https://github.com/DCR-Studio/HyperLightBCL/blob/main/LICENSE) Open Source License**,This agreement is mutually **contagious**.
+
+---
+
+### Additional Terms (under Article 7 of the GNU General Public License v3.0 Open Source License)
+
+1. When you distribute a modified version of the program, **you must modify the name or version number**of the program in a reasonable manner to indicate that it differs from the original version. (Based on [**GNU General Public License v3.0, 7(c)[↗]**](https://github.com/DCR-Studio/HyperLightBCL/blob/main/LICENSE#L372-L374))
+   - Modified versions **Must not include the original program name "Bad Craft Launcher" "HyperLightBCL" or its abbreviation "BCL" in the name. ", nor may it use a name that is similar to the official name and may lead to confusion**.
+   - All modifications **must be clearly marked as "unofficial modifications"** on the program launch page or in the main interface.
+   - All modifications **must clearly state in their repository, README, program, etc. that they are based on the "Bad Craft Launcher" or "HyperLightBCL" modifications**.
+
+2. You **may not remove the copyright notice** displayed by the program.(Based on [**GNU General Public License v3.0, 7(b)[↗]**](https://github.com/DCR-Studio/HyperLightBCL/blob/main/LICENSE#L368-L370))
+
 **Copyright ©2024-2025 DCR Studio and contributors. All rights reserved**
