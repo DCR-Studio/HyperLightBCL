@@ -24,32 +24,29 @@ body:
       label: "功能描述 (Feature Description)"
       description: "简要描述您希望新增的功能。/ Briefly describe the feature you would like to see added."
       placeholder: "例如：希望增加一个搜索功能 / For example: Would like to add a search feature."
-      required: true
 
   - type: input
     attributes:
       label: "功能需求的原因 (Reason for Feature Request)"
       description: "描述您提出此功能请求的原因。/ Describe the reason you are requesting this feature."
-      placeholder: "例如：为了提高用户体验，快速查找内容 / For example: To enhance user experience and quickly find content."
-      required: true
+      placeholder: "例如：为了提高用户体验，快速查找内容 / For example: To improve user experience and quickly find content."
 
   - type: input
     attributes:
-      label: "操作系统和版本 (Operating System and Version)"
-      description: "提供操作系统及其版本信息。/ Provide the operating system and version."
-      placeholder: "例如：Ubuntu 22.04, Windows 10等 / For example: Ubuntu 22.04, Windows 10, etc."
-      required: true
-
-  - type: input
-    attributes:
-      label: "启动器版本号 (Launcher Version)"
-      description: "提供启动器的版本号。/ Provide the launcher version."
-      placeholder: "例如：25.8.3-alpha / For example: 25.8.3-alpha"
-      required: true
+      label: "您希望此功能的优先级 (Feature Priority)"
+      description: "描述此功能的优先级。/ Describe the priority of this feature."
+      placeholder: "例如：高 / For example: High"
 
   - type: input
     attributes:
       label: "其他信息 (Additional Information)"
       description: "提供任何可能有助于实现此功能的其他信息。/ Provide any other information that may assist in implementing this feature."
       placeholder: "例如：关于此功能的具体要求或建议等 / For example: Specific requirements or suggestions for this feature."
-      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ### 您是否检查过该功能是否已经请求？
+        Have you checked if the feature has already been requested?
+        - [ ] 是 / Yes
+        - [ ] 否 / No
