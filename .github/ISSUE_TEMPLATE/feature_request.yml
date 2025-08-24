@@ -1,0 +1,55 @@
+name: Feature Request (功能请求)
+
+description: >
+  提交功能请求时，请尽可能提供详细的信息，帮助我们了解您的需求。  
+  Please provide as much detail as possible when submitting a feature request to help us understand your needs.
+
+title: "[Feature Request] (功能请求)"
+
+labels:
+  - enhancement
+  - needs-triage
+
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **注意：** 请先检查现有的 Issues，确保该功能请求尚未被提出。  
+        **Note:** Please check the existing Issues to ensure the feature request hasn't already been submitted.
+
+  - type: input
+    attributes:
+      label: "功能描述 (Feature Description)"
+      description: "简要描述您希望新增的功能。/ Briefly describe the feature you would like to see added."
+      placeholder: "例如：希望增加一个搜索功能 / For example: Would like to add a search feature."
+      required: true
+
+  - type: input
+    attributes:
+      label: "功能需求的原因 (Reason for Feature Request)"
+      description: "描述您提出此功能请求的原因。/ Describe the reason you are requesting this feature."
+      placeholder: "例如：为了提高用户体验，快速查找内容 / For example: To enhance user experience and quickly find content."
+      required: true
+
+  - type: input
+    attributes:
+      label: "操作系统和版本 (Operating System and Version)"
+      description: "提供操作系统及其版本信息。/ Provide the operating system and version."
+      placeholder: "例如：Ubuntu 22.04, Windows 10等 / For example: Ubuntu 22.04, Windows 10, etc."
+      required: true
+
+  - type: input
+    attributes:
+      label: "启动器版本号 (Launcher Version)"
+      description: "提供启动器的版本号。/ Provide the launcher version."
+      placeholder: "例如：25.8.3-alpha / For example: 25.8.3-alpha"
+      required: true
+
+  - type: input
+    attributes:
+      label: "其他信息 (Additional Information)"
+      description: "提供任何可能有助于实现此功能的其他信息。/ Provide any other information that may assist in implementing this feature."
+      placeholder: "例如：关于此功能的具体要求或建议等 / For example: Specific requirements or suggestions for this feature."
+      required: false
