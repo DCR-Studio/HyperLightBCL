@@ -55,10 +55,10 @@ body:
     validations:
       required: true
 
-- type: markdown
-  attributes:
-    value: |
-      ### 你是否检查过该问题是否已经报告？  
-      Have you checked if the issue has already been reported?
-      - [ ] 是 / Yes
-      - [ ] 否 / No
+  - type: markdown
+    attributes:
+      value: |
+        ### 你是否检查过该问题是否已经报告？  
+        Have you checked if the issue has already been reported?
+        - [ ] 是 / Yes
+        - [ ] 否 / No
