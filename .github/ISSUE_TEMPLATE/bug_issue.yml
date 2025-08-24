@@ -1,88 +1,80 @@
-name: BUG Report / BUG 反馈
-description: 'Report a bug / 反馈一个 Bug'
-labels: [Bug]
+name: Bug Report (错误报告)
+
+description: >
+  提交错误报告时，请尽可能提供详细信息，帮助我们快速定位并解决问题。  
+  Please provide as much detail as possible when submitting a bug report to help us quickly identify and fix the issue.
+
+title: "[Bug Report] (错误报告)"
+
+labels:
+  - bug
+  - needs-triage
+
+assignees: []
+
 body:
-  - type: dropdown
-    id: issue-type
+  - type: markdown
     attributes:
-      label: Issue Type / 问题类型
-      options:
-        - 'Game Issue / 游戏问题'
-        - 'Launcher Issue / 启动器问题'
-    validations:
-      required: true
-
-  - type: textarea
-    id: description
-    attributes:
-      label: Issue Description / 问题描述
-      description: |
-        Detail describe the issue you encountered.
-        详细地描述出你所遇到的问题
-    validations:
-      required: true
-
-  - type: textarea
-    id: log
-    attributes:
-      label: Log File / 日志文件
-      description: |
-        You need to upload the latest log file to help me locate the problem
-        您需要在这里上传最近的日志文件，方便我定位问题
-    validations:
-      required: true
-
-  - type: textarea
-    id: screenshots
-    attributes:
-      label: Screenshots or Videos / 截图或视频
-      description: |
-        Upload a screenshot or video of the last time you encountered this problem
-        上传最近一次遇到此 Bug 的截图或视频
-    validations:
-      required: false
-
-  - type: textarea
-    id: repetition
-    attributes:
-      label: Reproduction Steps / 复现步骤
-      description: |
-        Please provide as many steps as possible to reproduce this bug so that I can locate the problem.
-        复现此 Bug 的步骤，请尽量详细一点，方便我定位问题
-      placeholder: |
-        1. xxx
-        2. xxx
-        ... *(steps to reproduce the issue / 复现问题的一些操作)*
-      render: markdown
-    validations:
-      required: false
+      value: |
+        **注意：** 请先检查现有的 Issues，确保该问题尚未被报告。  
+        **Note:** Please check the existing Issues to ensure the problem hasn't already been reported.
 
   - type: input
-    id: app-version
     attributes:
-      label: OpenBCLCore Version / OpenBCLCore 版本号
-      description: |
-        Which version of OpenBCLCore did you encounter this issue in?
-        遇到此 Bug 的版本是?
-      placeholder: 1.0.0-Dev
-    validations:
+      label: "问题描述 (Bug Description)"
+      description: "简要描述问题及其发生的情况。/ Briefly describe the issue and its occurrence."
+      placeholder: "例如：程序崩溃，无法启动等 / For example: The app crashes, won't start, etc."
       required: true
 
   - type: input
-    id: device-info
     attributes:
-      label: Device Information / 设备信息
-      description: |
-        Providing detailed information about the device will help me troubleshoot the issue.
-        提供设备的详细信息，有助于我排查问题。
-      placeholder: Linux amd64
-    validations:
+      label: "重现步骤 (Steps to Reproduce)"
+      description: "提供复现问题的步骤。/ Provide the steps to reproduce the issue."
+      placeholder: "例如：1. 启动应用 2. 点击按钮A 3. 错误发生 / For example: 1. Launch the app 2. Click button A 3. Error occurs"
       required: true
 
-  - type: checkboxes
-    id: check-issue
+  - type: input
     attributes:
-      label: This issue has not been reported before / 这个问题貌似还没有人反馈过
+      label: "实际行为 (Actual Behavior)"
+      description: "描述问题发生时程序的实际行为。/ Describe the actual behavior when the issue occurs."
+      placeholder: "例如：程序崩溃，页面无法显示等 / For example: The app crashes, the page won't load, etc."
+      required: true
+
+  - type: input
+    attributes:
+      label: "操作系统版本 (Operating System and Version)"
+      description: "提供操作系统及其版本信息。/ Provide the operating system and version."
+      placeholder: "例如：Ubuntu 22.04, Windows 10 等 / For example: Ubuntu 22.04, Windows 10, etc."
+      required: true
+
+  - type: input
+    attributes:
+      label: "启动器版本号 (Launcher Version)"
+      description: "提供启动器的版本号。/ Provide the launcher version."
+      placeholder: "例如：25.8.3-alpha / For example: 25.8.3-alpha"
+      required: true
+
+  - type: input
+    attributes:
+      label: "日志信息 (Logs)"
+      description: "如果有相关日志，请附上。/ Please attach any relevant logs if available."
+      placeholder: "例如：崩溃日志或错误日志 / For example: Crash log or error log."
+      required: false
+
+  - type: input
+    attributes:
+      label: "其他信息 (Additional Information)"
+      description: "提供任何可能有助于解决问题的其他信息。/ Provide any other information that may assist in resolving the issue."
+      placeholder: "例如：遇到问题时的其他环境配置等 / For example: Additional environment settings when the issue occurs."
+      required: false
+
+  - type: checkbox
+    attributes:
+      label: "确认已尝试以下解决步骤 (Confirm the following steps have been tried)"
+      description: "请勾选已尝试的步骤。/ Check all the steps you've already tried."
+      required: true
       options:
-        - label: I have checked the Issues and found no similar issue reported / 我已经查看过 Issues，并且没有发现与之类似的问题被反馈
-          required: true
+        - label: "重置整个启动器 / Resetting the entire launcher"
+        - label: "清理缓存 / Clearing the cache"
+        - label: "更新到最新版本 / Updating to the latest version"
+        - label: "其他 / Other"
