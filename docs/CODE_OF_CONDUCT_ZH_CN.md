@@ -1,6 +1,6 @@
 # 贡献者行为准则(简体中文)
-[［English]](CODE_OF_CONDUCT.md)
-[[繁體中文]](CODE_OF_CONDUCT_ZH_TW.md)
+[［English］](CODE_OF_CONDUCT.md)
+[［繁體中文］](CODE_OF_CONDUCT_ZH_TW.md)
 
 我们， HyperLightBCL 项目的贡献者和维护者承诺让所有参与社区的人都能获得一个无骚扰的体验，不论其经验水平、性别、性别认同与表达、性取向、残疾、外貌、体型、种族、民族、年龄、宗教信仰或国籍。
 

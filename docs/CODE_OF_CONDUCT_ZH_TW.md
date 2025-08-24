@@ -1,6 +1,6 @@
 # 貢獻者行為準則(繁體中文)
-[［简体中文]](CODE_OF_CONDUCT_ZH_CN.md)
-[[English]](CODE_OF_CONDUCT.md)
+[［简体中文］](CODE_OF_CONDUCT_ZH_CN.md)
+[［English］](CODE_OF_CONDUCT.md)
 
 我們，HyperLightBCL 專案的貢獻者和維護者，承諾讓所有參與社群的人都能獲得一個無騷擾的體驗，不論其經驗水平、性別、性別認同與表達、性取向、身心障礙、外貌、體型、種族、民族、年齡、宗教信仰或國籍。
 
