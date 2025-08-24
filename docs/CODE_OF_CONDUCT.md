@@ -1,4 +1,6 @@
-# Contributor Code of Conduct
+# Contributor Code of Conduct(English)
+[［简体中文]](CODE_OF_CONDUCT_ZH_CN.md)
+[[繁體中文]](CODE_OF_CONDUCT_ZH_TW.md)
 
 We, the contributors and maintainers of the HyperLightBCL project, pledge to make participation in our community a harassment-free experience for everyone, regardless of experience level, gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, ethnicity, age, religion, or nationality.
 
