@@ -20,61 +20,45 @@ body:
         **Note:** Please check the existing Issues to ensure the problem hasn't already been reported.
 
   - type: input
+    id: launcher_version
+    attributes:
+      label: "启动器版本 (Launcher Version)"
+      description: "请输入您使用的启动器版本。/ Please enter the launcher version you are using."
+      placeholder: "例如：25.8.3-alpha / For example: 25.8.3-alpha"
+    validations:
+      required: true
+
+  - type: input
+    id: system_version
+    attributes:
+      label: "系统版本 (System Version)"
+      description: "请输入您的操作系统版本。/ Please enter your operating system version."
+      placeholder: "例如：Windows 10,Ubuntu 22.04 / For example: Windows 10,Ubuntu 22.04."
+    validations:
+      required: true
+
+  - type: input
+    id: bug_description
     attributes:
       label: "问题描述 (Bug Description)"
       description: "简要描述问题及其发生的情况。/ Briefly describe the issue and its occurrence."
       placeholder: "例如：程序崩溃，无法启动等 / For example: The app crashes, won't start, etc."
+    validations:
       required: true
 
   - type: input
+    id: steps_to_reproduce
     attributes:
       label: "重现步骤 (Steps to Reproduce)"
       description: "提供复现问题的步骤。/ Provide the steps to reproduce the issue."
-      placeholder: "例如：1. 启动应用 2. 点击按钮A 3. 错误发生 / For example: 1. Launch the app 2. Click button A 3. Error occurs"
+      placeholder: "例如：1. 启动应用 2. 点击按钮A 3. 错误发生 / For example: 1. Launch the app 2. Click button A 3. Error happens."
+    validations:
       required: true
 
-  - type: input
-    attributes:
-      label: "实际行为 (Actual Behavior)"
-      description: "描述问题发生时程序的实际行为。/ Describe the actual behavior when the issue occurs."
-      placeholder: "例如：程序崩溃，页面无法显示等 / For example: The app crashes, the page won't load, etc."
-      required: true
-
-  - type: input
-    attributes:
-      label: "操作系统版本 (Operating System and Version)"
-      description: "提供操作系统及其版本信息。/ Provide the operating system and version."
-      placeholder: "例如：Ubuntu 22.04, Windows 10 等 / For example: Ubuntu 22.04, Windows 10, etc."
-      required: true
-
-  - type: input
-    attributes:
-      label: "启动器版本号 (Launcher Version)"
-      description: "提供启动器的版本号。/ Provide the launcher version."
-      placeholder: "例如：25.8.3-alpha / For example: 25.8.3-alpha"
-      required: true
-
-  - type: input
-    attributes:
-      label: "日志信息 (Logs)"
-      description: "如果有相关日志，请附上。/ Please attach any relevant logs if available."
-      placeholder: "例如：崩溃日志或错误日志 / For example: Crash log or error log."
-      required: false
-
-  - type: input
-    attributes:
-      label: "其他信息 (Additional Information)"
-      description: "提供任何可能有助于解决问题的其他信息。/ Provide any other information that may assist in resolving the issue."
-      placeholder: "例如：遇到问题时的其他环境配置等 / For example: Additional environment settings when the issue occurs."
-      required: false
-
-  - type: checkbox
-    attributes:
-      label: "确认已尝试以下解决步骤 (Confirm the following steps have been tried)"
-      description: "请勾选已尝试的步骤。/ Check all the steps you've already tried."
-      required: true
-      options:
-        - label: "重置整个启动器 / Resetting the entire launcher"
-        - label: "清理缓存 / Clearing the cache"
-        - label: "更新到最新版本 / Updating to the latest version"
-        - label: "其他 / Other"
+- type: markdown
+  attributes:
+    value: |
+      ### 你是否检查过该问题是否已经报告？  
+      Have you checked if the issue has already been reported?
+      - [ ] 是 / Yes
+      - [ ] 否 / No
