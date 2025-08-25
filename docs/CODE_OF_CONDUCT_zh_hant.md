@@ -1,6 +1,6 @@
-# 貢獻指南 - HyperLightBCL
+# 貢獻指南 - HyperLightBCL(繁體中文)
 
-<b><a href="CODE_OF_CONDUCT.md">Engish</a> | <a href="CODE_OF_CONDUCT_zh_hans.md">简体中文</a> | 繁體中文
+<b><a href="https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CODE_OF_CONDUCT.md">Engish</a> | <a href="https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CODE_OF_CONDUCT_zh_hans.md">简体中文</a> | 繁體中文
 </p>
 
 

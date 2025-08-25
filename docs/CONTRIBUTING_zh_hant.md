@@ -1,6 +1,6 @@
 # 貢獻指南 - HyperLightBCL(繁體中文)
 
-<b><a href="CONTRIBUTING.md">Engish</a> | <a href="CONTRIBUTING_zh_hans.md">简体中文</a> | 繁體中文
+<b><a href="https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CONTRIBUTING.md">Engish</a> | <a href="https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CONTRIBUTING_zh_hans.md">简体中文</a> | 繁體中文
 </p>
 
 

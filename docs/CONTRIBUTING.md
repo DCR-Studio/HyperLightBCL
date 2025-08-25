@@ -1,6 +1,6 @@
 # Contributing to HyperLightBCL
 
-<b>Engish | <a href="CONTRIBUTING_zh_hans.md">简体中文</a> | <a href="CONTRIBUTING_zh_hant.md">繁體中文</a>
+<b>Engish | <a href="https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CONTRIBUTING_zh_hans.md">简体中文</a> | <a href="https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CONTRIBUTING_zh_hant.md">繁體中文</a>
 </p>
 
 Thank you for your interest in contributing! This document explains how to report issues, propose changes, and submit code so maintainers can review and accept your contributions quickly.

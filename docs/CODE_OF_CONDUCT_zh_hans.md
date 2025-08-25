@@ -1,6 +1,6 @@
-# 贡献指南 - HyperLightBCL
+# 贡献指南 - HyperLightBCL(简体中文)
 
-<b><a href="CODE_OF_CONDUCT.md">Engish</a> | 简体中文 | <a href="CODE_OF_CONDUCT_zh_hant.md">繁體中文</a>
+<b><a href="https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CODE_OF_CONDUCT.md">Engish</a> | 简体中文 | <a href="https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CODE_OF_CONDUCT_zh_hant.md">繁體中文</a>
 </p>
 
 感谢你对本项目的关注！本文档解释了如何报告问题、提出修改建议以及提交代码，以便维护者能够快速审查和接受你的贡献。
