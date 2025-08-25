@@ -1,7 +1,7 @@
 {
-  "name": "hyperlightbcl",
+  "name": "HyperLightBCL",
   "private": true,
-  "version": "0.1.0",
+  "version": "25.8.3-alpha",
   "type": "module",
   "scripts": {
     "dev": "vite",
