@@ -1,23 +1,28 @@
 [package]
-name = "hyperlightbcl"
-version = "0.1.0"
-description = "A Tauri App"
-authors = ["you"]
+name = "HyperLightBCL"
+description = "A HyperLightBCL For Minecraft Java Launcher,written in Rust,Tauri"
+version = "25.8.3-alpha"
+license = "GNU General Public License v3.0"
+repository = "https://github.com/DCR-Studio/HyperLightBCL"
+homepage = "https://launcher.dcrstudio.top"
+authors = ["TNTyep520 <sbtntyep520@gmail.com>"]
+rust-version = "1.88.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [lib]
-# The `_lib` suffix may seem redundant but it is necessary
-# to make the lib name unique and wouldn't conflict with the bin name.
-# This seems to be only an issue on Windows, see https://github.com/rust-lang/cargo/issues/8519
 name = "hyperlightbcl_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
+
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1
 
 [build-dependencies]
 tauri-build = { version = "2", features = [] }
 
 [dependencies]
+md5 = "0.7.0"
 tauri = { version = "2", features = [] }
 tauri-plugin-opener = "2"
 serde = { version = "1", features = ["derive"] }
