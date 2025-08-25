@@ -39,7 +39,7 @@
 
 HyperLightBCL continues to uphold the design principles of **lightweight · customizable · open · player-centered**, and follows the **GNU General Public License v3.0**. We welcome any community development contributions.
 
-**Development Group: 307955001**
+**Development Group (China): 307955001**
 
 ---
 
@@ -47,7 +47,7 @@ HyperLightBCL continues to uphold the design principles of **lightweight · cust
 [![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white&style=for-the-badge)](https://www.rust-lang.org/)
 [![Tauri](https://img.shields.io/badge/Tauri-v2-FFC131?style=for-the-badge&logo=tauri&logoColor=white&labelColor=24C8DB)](https://tauri.app/)
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Vue](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)](https://vuejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
 ---
@@ -100,7 +100,7 @@ Below are the planned feature modules and their progress:
 >
 > - [**Github Actions[↗]**](https://github.com/DCR-Studio/HyperLightBCL/actions)
 
-You can usually just visit the [**Launcher Official Website[↗]**](https://launcher.dcrstudio.top/download) to download
+You can usually just visit the [**Launcher Official Website[↗]**](https://launcher.dcrstudio.top/hyperlightbcl/download) to download
 
 ---
 

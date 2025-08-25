@@ -47,7 +47,7 @@ HyperLightBCL 仍秉持 **輕量化 · 可定制 · 開放 · 以玩家為中心
 [![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white&style=for-the-badge)](https://www.rust-lang.org/)
 [![Tauri](https://img.shields.io/badge/Tauri-v2-FFC131?style=for-the-badge&logo=tauri&logoColor=white&labelColor=24C8DB)](https://tauri.app/)
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Vue](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)](https://vuejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
 ---
@@ -100,7 +100,7 @@ HyperLightBCL 仍秉持 **輕量化 · 可定制 · 開放 · 以玩家為中心
 >
 > - [**Github Actions[↗]**](https://github.com/DCR-Studio/HyperLightBCL/actions)
 
-通常只需造訪 [**啟動器官網[↗]**](https://launcher.dcrstudio.top/download) 下載即可
+通常只需造訪 [**啟動器官網[↗]**](https://launcher.dcrstudio.top/hyperlightbcl/download) 下載即可
 
 ---
 
