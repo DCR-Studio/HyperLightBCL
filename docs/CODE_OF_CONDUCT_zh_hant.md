@@ -1,6 +1,7 @@
-# 貢獻指南 - HyperLightBCL(繁體中文)
-[[简体中文]](CONTRIBUTING_ZH_CN.md)  
-[[English]](CONTRIBUTING.md)
+# 貢獻指南 - HyperLightBCL
+
+<b><a href="CODE_OF_CONDUCT.md">Engish</a> | <a href="CODE_OF_CONDUCT_zh_hans.md">简体中文</a> | 繁體中文
+</p>
 
 
 感謝你對本專案的關注！本文檔解釋了如何回報問題、提出修改建議以及提交程式碼，以便維護者能夠快速審查並接受你的貢獻。
