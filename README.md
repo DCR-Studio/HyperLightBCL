@@ -141,7 +141,7 @@ We warmly welcome **every community developer to contribute to this project!**
 ## 🌟 Acknowledgements:
 **Thanks to the following people who have contributed to the project:**
 
-[![Contributors](https://contrib.rocks/image?repo=DCR-Studio/HyperLightBCL)](https://github.com/DCR-Studio/HyperLightBCL/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=DCR-Studio/HyperLightBCL&v=12345)](https://github.com/DCR-Studio/HyperLightBCL/graphs/contributors)
 
 ---
 

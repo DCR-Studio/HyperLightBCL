@@ -141,7 +141,7 @@ npm run tauri dev
 ## 🌟 感謝名單：
 **感謝以下為專案做出貢獻的人員：**
 
-[![Contributors](https://contrib.rocks/image?repo=DCR-Studio/HyperLightBCL)](https://github.com/DCR-Studio/HyperLightBCL/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=DCR-Studio/HyperLightBCL&v=12345)](https://github.com/DCR-Studio/HyperLightBCL/graphs/contributors)
 
 ---
 
