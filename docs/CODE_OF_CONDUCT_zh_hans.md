@@ -1,226 +1,53 @@
-# 贡献指南 - HyperLightBCL(简体中文)
+# 贡献者行为准则(简体中文)
 
 <b><a href="https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CODE_OF_CONDUCT.md">Engish</a> | 简体中文 | <a href="https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CODE_OF_CONDUCT_zh_hant.md">繁體中文</a>
 </p>
 
-感谢你对本项目的关注！本文档解释了如何报告问题、提出修改建议以及提交代码，以便维护者能够快速审查和接受你的贡献。
+我们， HyperLightBCL 项目的贡献者和维护者承诺让所有参与社区的人都能获得一个无骚扰的体验，不论其经验水平、性别、性别认同与表达、性取向、残疾、外貌、体型、种族、民族、年龄、宗教信仰或国籍。
 
----
+本行为准则适用于项目管理的所有空间，包括 GitHub 问题讨论（issues）、拉取请求（Pull Requests/PR）、邮件列表、聊天频道以及线下活动。
 
-## 在开始之前
+## 我们的标准
 
-- 搜索已存在和已关闭的 Issues 与 Pull Requests，避免重复工作。
-- 对于大型、架构性或破坏性更改，请在实现之前先开启一个 Issue 进行讨论。描述动机、要解决的问题和可能的实现方法。
-- 如果不确定优先级或要提交到哪个分支，请在 Issue 中询问或联系维护者。
+有助于营造积极环境的行为示例包括：
 
----
+* 使用友好和包容的语言
+* 尊重不同的观点和经验
+* 优雅地接受建设性批评
+* 关注社区的整体利益
+* 对其他社区成员表现出同理心
 
-## 行为准则
+参与者不可接受的行为示例包括：
 
-请遵守项目的行为准则。如果仓库中存在 `CODE_OF_CONDUCT.md` 文件，请遵循其中的规范。保持尊重和建设性的交流有助于项目发展。
+* 任何形式的骚扰、恐吓或歧视
+* 侮辱性言论、人身攻击或持续干扰讨论
+* 未经明确同意发布他人的私人信息
+* 不受欢迎的性关注
+* 故意滥用问题追踪器、拉取请求或频道以骚扰或针对个人
 
----
+## 举报与执行
 
-## 报告问题
+如果你经历或目睹了违反本行为准则的行为，请通过以下方式举报：联系项目维护者 `dcrstudio@yeah.net`，或（若有提供）提交一份保密的支持请求。请尽可能提供详细信息，包括链接、截图和时间戳。
 
-在提交 Issue 时，请尽量使用模板（如有），并包括：
+所有举报都会被及时、谨慎地处理。维护者将审查举报，并可能采取包括但不限于以下措施：
 
-- 清晰的标题和简洁的问题描述。
-- 复现问题的步骤（最好有最小可复现示例）。
-- 环境详情：操作系统及版本、CPU 架构、Java/Rust/Node 版本（如果相关）。
-- 期望的行为与实际行为。
-- 相关日志、错误信息和截图。
-- 使用的版本或提交号（如 `v0.1.0` 或 commit hash）。
+* 要求违规者立即停止相关行为
+* 删除或编辑违规评论或内容
+* 暂时或永久禁止用户参与项目渠道
+* 在威胁或违法情况下，将详情转交相关部门
 
-安全漏洞：不要在公开的 Issue 中披露安全相关问题。请遵循仓库的 `SECURITY.md` 文件说明，或私下联系维护者报告漏洞。
+收到举报的维护者在存在利益冲突时将回避相关讨论，并在需要时征求其他维护者或社区成员的意见。
 
----
+## 适用范围
 
-## 开发工作流
-
-以下是通过 GitHub Pull Request 贡献代码的典型流程。
-
-### 1. Fork 并克隆
-
-将仓库 Fork 到自己的 GitHub 账户，然后克隆并添加 upstream 远程：
-
-```bash
-# 克隆自己的 fork
-git clone https://github.com/<your-username>/HyperLightBCL.git
-cd HyperLightBCL
-# 添加 upstream 以保持与原始仓库同步
-git remote add upstream https://github.com/DCR-Studio/HyperLightBCL.git
-````
-
-### 2. 创建分支
-
-从最新的 upstream/main（或维护者指定的分支）创建描述性分支。
-
-命名建议：
-
-* 使用简短、小写、kebab-case 风格：`feat/add-downloader`、`fix/issue-123`、`docs/update-readme`
-
-示例：
-
-```bash
-git fetch upstream
-git checkout -b feat/my-feature upstream/main
-```
-
-保持分支专注（每个分支只做一类逻辑修改），便于审核。
-
-### 3. 保持分支最新
-
-定期 rebase 或 merge upstream 的更新，保持分支最新。推荐使用 rebase 以保持更干净的提交历史：
-
-```bash
-git fetch upstream
-git rebase upstream/main
-# 解决冲突后继续
-git rebase --continue
-```
-
-如果你更喜欢 merge：
-
-```bash
-git fetch upstream
-git merge upstream/main
-```
-
-完成后推送到自己的 fork：
-
-```bash
-git push -f origin your-branch-name  # rebase 后需要强制推送
-# 或 merge 后
-git push origin your-branch-name
-```
-
-### 4. 本地构建、检查和测试
-
-在提交 PR 之前，请确保项目能正确构建并通过测试。
-
-Rust（后端/核心）：
-
-```bash
-# 格式化与检查
-cargo fmt --all
-cargo clippy --all -- -D warnings
-# 运行测试
-cargo test
-```
-
-前端（Tauri / React / TypeScript）：
-
-```bash
-npm install
-npm run lint        # 检查代码风格（如果配置）
-npm run build       # 确认能正常构建
-npm test            # 运行前端测试
-```
-
-根据仓库的配置文件和 CI 调整命令。如有不清楚的地方，请在 Issue 中询问。
-
-### 5. 提交信息规范
-
-本项目使用 **Conventional Commits**（Angular 风格），以便生成清晰的 changelog 和历史。
-
-基本格式：
-
-```
-<type>(<scope>): <subject>
-
-<body>
-
-<footer>
-```
-
-* 标题简洁（建议 ≤ 50 字符），使用祈使句现在时，如 "add"、"fix"、"update"。
-* 正文换行宽度约 72 字符。
-
-常见类型：
-
-* feat: 新功能
-* fix: 修复 bug
-* docs: 仅文档修改
-* style: 格式化、空格、缺少分号等
-* refactor: 既不是修复 bug 也不是新增功能的代码改动
-* perf: 性能优化
-* test: 添加或修复测试
-* build: 构建系统或依赖相关修改
-* ci: CI 配置修改
-* chore: 其他不影响 src 或 tests 的改动
-
-示例：
-
-```
-feat(auth): add microsoft oauth login
-fix(startup): handle missing game directory on windows
-docs(readme): improve installation instructions
-```
-
-如果你的改动回滚了之前的提交，请以 `revert:` 开头，并在正文中包含 `This reverts commit <hash>.`。
-
-如有破坏性 API 变更，请在 footer 加入 `BREAKING CHANGE:` 并附上迁移说明。
-
-### 6. 推送并提交 Pull Request
-
-将分支推送到 fork 仓库，然后向 upstream 提交 Pull Request（目标分支通常为 `main`，除非维护者指定）。
-
-PR 描述应包含：
-
-* 简要说明改动和动机。
-* 相关 Issues 和 PR（如 `Closes #123`）。
-* 本地测试方法，方便审阅者复现。
-* 如果涉及 UI 或用户可见行为，请附上截图或日志。
-
-响应审查意见，按需更新分支。保持提交整洁，必要时使用 rebase。
-
----
-
-## Pull Request 检查清单
-
-* [ ] 我已阅读 CONTRIBUTING 指南。
-* [ ] 我的分支基于最新的 upstream/main。
-* [ ] 我已添加测试（如适用），且测试本地通过。
-* [ ] 我已运行过代码检查和格式化。
-* [ ] PR 描述中解释了动机和实现细节。
-* [ ] 我已关联相关 Issues（如 `Closes #...`）。
-* [ ] 我已考虑改动的安全性与隐私影响。
-* [ ] CI 检查通过（或说明了暂未适用原因）。
-
----
-
-## 开发规范与工具
-
-* Rust 使用 `rustfmt` / `cargo fmt`，前端使用 `prettier` / `eslint`。仓库可能包含 `.rustfmt.toml`、`.prettierrc`、`.eslintrc` 等配置。
-* 保持改动小而专注，便于审查。
-* 为公共 API 和复杂逻辑编写注释和文档。
-
----
-
-## 安全与敏感数据
-
-* 不要提交密钥、API key 或私人凭证。如果误提交，请立即通知维护者，以便替换密钥并修复历史。
-* 按 `SECURITY.md` 指引报告漏洞。
-
----
-
-## 许可与贡献者协议
-
-提交贡献即表示你同意你的贡献将遵循项目的开源协议（见仓库 `LICENSE` 文件）。
-
-如项目要求 DCO 或 CLA，维护者会明确说明。如果需要 DCO，请在提交时使用 `git commit -s` 签名。
-
----
-
-## 获取帮助
-
-如果需要帮助，请开启一个带 `help wanted` 标签的 Issue，或加入开发群组（联系方式见 README）。维护者和贡献者会尽量回复，但响应时间可能有所不同。
-
----
+本行为准则不仅适用于项目空间内的行为，也适用于在公共空间中可能合理影响本项目或其社区的行为。示例包括：涉及本项目或贡献者的社交媒体公开帖子、博客文章，以及以 HyperLightBCL 代表身份参加会议时的行为。
 
 ## 致谢
 
-感谢你为 HyperLightBCL 做出的贡献！无论大小，你的努力都将产生积极影响。
+本行为准则改编自 [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html)（版本 2.1）。感谢 Contributor Covenant 作者的工作。
 
-***简体中文文档由ChatGPT翻译***
+## 许可
+
+本行为准则与项目使用相同的许可协议进行分发。参与本项目即表示你同意遵守本行为准则。
+
+***由ChatGPT翻译***
