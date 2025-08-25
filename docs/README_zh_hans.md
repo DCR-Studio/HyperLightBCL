@@ -10,8 +10,8 @@
 <b><a href="https://github.com/DCR-Studio/HyperLightBCL/blob/main/README.md">English</a> | 简体中文 | <a href="https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/README_zh_hant.md">繁體中文</a>
 </p>
 
-[贡献指南[↗]](https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CONTRIBUTING.md)
-[行为准则[↗]](https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CODE_OF_CONDUCT.md)
+[贡献指南[↗]](https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CONTRIBUTING_zh_hans.md)
+[行为准则[↗]](https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CODE_OF_CONDUCT_zh_hans.md)
 
 [![Stars](https://img.shields.io/github/stars/DCR-Studio/HyperLightBCL?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiIGZpbGw9IiNlYWM1NGYiLz48L3N2Zz4=&logoSize=auto&label=Stars&labelColor=444444&color=eac54f)](https://github.com/DCR-Studio/HyperLightBCL)
 [![LICENSE](https://img.shields.io/github/license/DCR-Studio/HyperLightBCL?style=for-the-badge)](https://github.com/DCR-Studio/HyperLightBCL/blob/main/LICENSE)
@@ -132,7 +132,7 @@ npm run tauri dev
 
 我们热烈欢迎**每一位社区开发者对该项目的贡献！**
 
-### 提交仓库源代码 (另见[贡献指南[↗]](https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CONTRIBUTING.md)) ：
+### 提交仓库源代码 (另见[贡献指南[↗]](https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CONTRIBUTING_zh_hans.md)) ：
 
 **登录你的个人 Github 账户，fork 此仓库，使用 git 克隆你 fork 的仓库地址，自修改后通过 git commit 提交源代码，然后申请合并 Pull requests**
 

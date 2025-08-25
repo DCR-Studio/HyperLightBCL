@@ -10,8 +10,8 @@
 <b><a href="https://github.com/DCR-Studio/HyperLightBCL/blob/main/README.md">English</a> | <a href="https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/README_zh_hans.md">简体中文</a> | 繁體中文
 </p>
 
-[貢獻指南[↗]](https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CONTRIBUTING.md)
-[行為準則[↗]](https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CODE_OF_CONDUCT.md)
+[貢獻指南[↗]](https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CONTRIBUTING_zh_hant.md)
+[行為準則[↗]](https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CODE_OF_CONDUCT_zh_hant.md)
 
 [![Stars](https://img.shields.io/github/stars/DCR-Studio/HyperLightBCL?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdp[...]
 [![LICENSE](https://img.shields.io/github/license/DCR-Studio/HyperLightBCL?style=for-the-badge)](https://github.com/DCR-Studio/HyperLightBCL/blob/main/LICENSE)
@@ -132,7 +132,7 @@ npm run tauri dev
 
 我們熱烈歡迎**每一位社群開發者對本專案的貢獻！**
 
-### 提交倉庫原始碼（另見[貢獻指南[↗]](https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CONTRIBUTING.md)）：
+### 提交倉庫原始碼（另見[貢獻指南[↗]](https://github.com/DCR-Studio/HyperLightBCL/blob/main/docs/CONTRIBUTING_zh_hant.md)）：
 
 請使用個人 GitHub 帳號 fork 本倉庫，clone 您的 fork，修改後以 git commit 提交原始碼，最後發起 Pull Request 申請合併。
 
